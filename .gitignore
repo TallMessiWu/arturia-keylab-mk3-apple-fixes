@@ -1,0 +1,8 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+*.log
+build/
+*.concert/
+*.logicx/
