@@ -4,6 +4,17 @@
 
 Community fixes for the **KeyLab mk3 49, 61 and 88** integration scripts. Not an official Arturia release; not for KeyLab Essential or mkII.
 
+## Installed the official scripts, but something still feels wrong?
+
+This project started after installing Arturia's official scripts and encountering two problems with a KeyLab mk3 in DAW mode:
+
+- **Logic Pro:** pressing the main encoder opened **Smart Controls**, when we expected the selected track's **instrument plug-in window**. The script bound the click to the Smart Controls command; this fix changes that binding.
+- **MainStage Creator Studio:** the keyboard could display and browse presets, but **metronome, play/stop, record and tap buttons did nothing**. The original script's action fields did not match the Creator Studio application's name. Adding the matching fields restored those controls in our tests.
+
+These are separate issues: the Logic binding change is not established as a Creator Studio-specific problem. This repository packages the fixes so you can install them without editing scripts yourself. It also includes MainStage patch-display corrections, explained below.
+
+**If either symptom matches yours, install the corresponding package below.** If the official integration already works as you want, there is no need to replace it.
+
 ## Install — no coding needed
 
 1. Quit **both Logic Pro and MainStage**.
