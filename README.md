@@ -15,7 +15,7 @@ These are separate issues: the Logic binding change is not established as a Crea
 
 **If either symptom matches yours, install the corresponding package below.** If the official integration already works as you want, there is no need to replace it.
 
-## Install — no coding needed
+## Install
 
 1. Quit **both Logic Pro and MainStage**.
 2. Download the installer for the app you want to use:
